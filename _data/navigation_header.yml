@@ -6,11 +6,11 @@ right:
   - title: Home
     url: /  
   
-  - title: FAQ
-    url: /faq/
+  #- title: FAQ
+  #  url: /faq/
 
-  - title: Artigos
-    url: /articles/installation/
+  #- title: Artigos
+  #  url: /articles/installation/
 
   - title: SDK
     url: /articles/sdk/
