@@ -1,5 +1,5 @@
 ---
-title: SDK
+title: SDK Documentation
 subtitle: This document covers the setup and options of SDK feature described in this document
 tags: [sdk, tuio, node]
 ---
