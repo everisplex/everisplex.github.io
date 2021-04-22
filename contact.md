@@ -1,12 +1,11 @@
 ---
 layout: page
 width: xsmall
-title: Got Any Questions
-subtitle: Nemo enim ipsam voluptatem quia voluptas sit aspernatur consequuntur dolores voluptatem sequi nesciunt
+title: Become our client or partner
 permalink: /contact/
 ---
 
-Become our client or partner
+
 Can’t wait to use all everis Plex power?
 
 Do you want to join us to integrate your Phyapp to our ecosystem?
