@@ -1,0 +1,20 @@
+# Navbar left menu navigation links
+left:  
+
+# Navbar right menu navigation links
+right:
+  - title: Home
+    url: /  
+  
+  - title: FAQ
+    url: /faq/
+
+  - title: Artigos
+    url: /articles/installation/
+
+  - title: SDK
+    url: /articles/sdk/
+      
+  - title: PLEX LOGIN
+    url: https://everisplex.com/login
+    button: primary
