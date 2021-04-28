@@ -56,8 +56,9 @@
 
 @mixin hook-button-misc(){
     .uk-button {
-        font-weight: $button-font-weight;
+        font-weight: bolder;
         letter-spacing: 1px;
+        border-radius: 5px;
     }
 
     .uk-button-default,

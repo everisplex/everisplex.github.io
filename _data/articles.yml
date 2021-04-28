@@ -5,30 +5,30 @@
 #  - setup
 #  - footer
 
-- title: SDK
-  icon: file-edit
+- title: Developers Support
+  icon: suport
   articles:
   - sdk
   
-#- title: Theme Features
-#  icon: settings
-#  articles:
-#  - home
+- title: FAQ
+  icon: faq
+  articles:
+  - home
 #  - categories
 #  - faq
 #  - cta
 #  - changelog
 #  - contact
 
-#- title: Navigation Bar
-#  icon: menu
-#  articles:
-#  - navigation
+- title: Training Request
+  icon: training
+  articles: 
+  - navigation
 
-#- title: Google Analytics
-#  icon: history
-#  articles:
-#  - analytics
+- title: Submit your app
+  icon: submit
+  articles:
+  - submit
 
 #- title: Newsletter Sign Up
 #  icon: mail

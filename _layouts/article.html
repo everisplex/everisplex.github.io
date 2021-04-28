@@ -77,13 +77,14 @@ layout: default
                                             {% assign current_cat = ' uk-open' %}
                                         {% endif %}
                                     {% endfor %}
+                                    {% if category.title == 'Developers Support'%}
                                     <li class="uk-parent{{ current_cat }}">
                                         <a href="#">{{ category.title }}</a>
                                         <ul class="uk-nav-sub">
                                             {% for article in category.articles %}
                                                 {% assign p = site.articles | where:"slug", article | first %}
                                                 <li{% if article == page.slug %} class="uk-active"{% endif %}><a href="{{ p.url }}">{{ p.title }}</a></li>
-                                                {% if category.title == 'SDK'%}
+                                                {% if category.title == 'Developers Support'%}
                                                 <ul>
                                                     {% for item in site.data.samplelist.docs %}
                                                        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
@@ -94,6 +95,7 @@ layout: default
                                             {% endfor %}
                                         </ul>
                                     </li>
+                                    {% endif %}
                                 {% endfor %}
                             </ul>
                         </div>
@@ -105,7 +107,7 @@ layout: default
 
                 <article class="uk-article">
 
-                    <h2 class="uk-article-title uk-margin-large-bottom">{{ page.title | escape }}</h2>
+                    <h2 class="uk-article-title uk-margin-large-bottom uk-text-uppercase"><strong>{{ page.title | escape }}</strong></h2>
 
                     {% if page.subtitle %}
                         <p class="uk-text-lead uk-margin-large-bottom">{{ page.subtitle }}</p>
@@ -120,18 +122,18 @@ layout: default
 
                 </article>
 
-                {% include hook-post-content-article.html %}
+                <!--{% include hook-post-content-article.html %}
                 
-                {% include related-articles.html %}
+                {% include related-articles.html %}-->
 
             </div>
             
-
+            
         </div>
     </div>
 </div>
 
-{% if site.article.cta %}
+<!--{% if site.article.cta %}
 <section class="uk-container">
     <hr class="uk-margin-remove">
     <div class="uk-grid-large uk-flex-middle uk-margin-large-top uk-margin-large-bottom" data-uk-grid data-uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true">
@@ -143,4 +145,9 @@ layout: default
         </div>
     </div>
 </section>
-{% endif %}
+{% endif %}-->
+
+{% include cta.html 
+    icon="help" title="Need more help?" text="Get in touch with us, support is provided daily" link_text="contact us" link_url="/contact/" 
+    icon2="partner" title2="Interested in our products?" text2="Our sales representatives can help you chose" link_text2="call us" link_url2="/contact/" 
+%}

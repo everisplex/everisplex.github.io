@@ -6,7 +6,7 @@
 
 # Site title and description
 title:              everis PLEX
-description:        Customer Support Helpdesk Jekyll theme
+description:        Support
 lang:               en
 
 # Site subpath, e.g. /blog
@@ -17,10 +17,12 @@ permalink:          /:title/
 
 # Site base hostname & protocol, e.g. http://example.com
 url:                "https://everisplex.github.io/"
-
+#url: "localhost:4000"
 # Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
-logo: logo.png               
-  
+logo: logo.png
+footerlogo: everis.png               
+logosmall: logosmall.png
+
 # Default author settings
 author:
     name:           Pete Seth
