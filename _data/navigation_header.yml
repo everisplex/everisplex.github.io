@@ -15,8 +15,8 @@ right:
   - title: Developers Support
     url: /articles/sdk/
 
-  - title: FAQ
-    url: /faq/
+  #- title: FAQ
+  #  url: /faq/
       
   - title: Contact
     url: /contact/
