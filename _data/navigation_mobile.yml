@@ -3,18 +3,29 @@
 - title: Home
   url: /
 
-- title: Articles
-  url: /articles/installation/
+- title: Developers Support
+    url: /articles/sdk/
 
-- title: Faq
-  url: /faq/
+- title: Contact
+    url: /contact/
 
-- title: Blog
-  url: /blog/
+- title: PLEX LOGIN
+    url: https://everisplex.com/login
+    button: primary
 
-- title: Changelog
-  url: /changelog/
+#- title: Articles
+#  url: /articles/installation/
+
+ 
+#- title: Faq
+#  url: /faq/
+
+#- title: Blog
+#  url: /blog/
+
+#- title: Changelog
+#  url: /changelog/
     
-- title: Contact Us
-  url: /contact/
-  button: primary
+#- title: Contact Us
+#  url: /contact/
+#  button: primary
