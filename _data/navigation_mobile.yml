@@ -11,7 +11,7 @@
 
 - title: PLEX LOGIN
     url: https://everisplex.com/login
-    button: primary
+    #button: primary
 
 #- title: Articles
 #  url: /articles/installation/
