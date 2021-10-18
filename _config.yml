@@ -5,7 +5,7 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site title and description
-title:              everis PLEX
+title:              
 description:        Support
 lang:               en
 
@@ -19,9 +19,9 @@ permalink:          /:title/
 url:                "https://everisplex.github.io/"
 #url: "localhost:4000"
 # Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
-logo: logo.png
-footerlogo: everis.png               
-logosmall: logosmall.png
+logo: logosmall.png
+footerlogo: nttdata.png             
+#logosmall:
 
 # Default author settings
 author:
@@ -44,17 +44,17 @@ authors:
 social:
     email:
     website:
-    facebook:       https://www.facebook.com/everisdobrasil
+    facebook:       
     flickr:
     dribbble:
     github:
     googleplus:
-    instagram:      https://www.instagram.com/everisbrasil/     
-    linkedin:       https://www.linkedin.com/company/everis
+    instagram:      
+    linkedin:       
     pinterest:
-    twitter:        https://twitter.com/everisbrasil
+    twitter:        
     vimeo:          
-    youtube:        https://www.youtube.com/c/everisBrasilOficial/videos
+    youtube:        
 
 # Share button
 share:
@@ -65,7 +65,7 @@ share:
 
 # Default footer image settings
 footer:
-    copyright:      © 2021 everis Plex by everis group. All rights reserved.
+    copyright:    © 2021 Plex by NTT DATA. All rights reserved.    
 
 # Disqus comments shortname, requires Disqus account https://disqus.com/
 disqus:

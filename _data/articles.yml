@@ -5,30 +5,30 @@
 #  - setup
 #  - footer
 
-- title: Developers Support
-  icon: suport
-  articles:
-  - sdk
+#- title: Developers Support
+#  icon: suport
+#  articles:
+#  - sdk
   
-- title: FAQ
-  icon: faq
-  articles:
-  - home
+#- title: FAQ
+#  icon: faq
+#  articles:
+#  - home
 #  - categories
 #  - faq
 #  - cta
 #  - changelog
 #  - contact
 
-- title: Training Request
-  icon: training
-  articles: 
-  - navigation
+#- title: Training Request
+#  icon: training
+#  articles: 
+#  - navigation
 
-- title: Submit your app
-  icon: submit
-  articles:
-  - submit
+#- title: Submit your app
+#  icon: submit
+#  articles:
+#  - submit
 
 #- title: Newsletter Sign Up
 #  icon: mail

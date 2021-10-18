@@ -1,17 +1,16 @@
 # Mobile menu navigation links
 
-- title: Home
-  url: /
+#- title: Home
+#  url: /
 
-- title: Developers Support
-  url: /articles/sdk/
+#- title: Developers Support
+#  url: /articles/sdk/
 
-- title: Contact
-  url: /contact/
+#- title: Contact
+#  url: /contact/
 
-- title: PLEX LOGIN
-  url: https://everisplex.com/login
-  button: primary
+#- title: PLEX LOGIN
+#    button: primary
 
 #- title: Articles
 #  url: /articles/installation/

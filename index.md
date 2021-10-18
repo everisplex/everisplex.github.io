@@ -1,11 +1,19 @@
 ---
 layout: home
-search: true
+search: false
 ---
 
-{% include categories.html columns="4" title="How can we help?" %}
+{% include categories.html columns="4" title="Attention: Our site has moved!" %}
 
-{% include cta.html 
-    icon="help" title="Need more help?" text="Get in touch with us, support is provided daily" link_text="contact us" link_url="/contact/" 
-    icon2="partner" title2="Interested in our products?" text2="Our sales representatives can help you chose" link_text2="call us" link_url2="/contact/" 
-%}
+
+<div class="uk-section">
+    <div class="uk-container uk-text-center">        
+            <article class="uk-article">         
+                <p class="uk-text-lead uk-margin-large-bottom">
+                Visit our new page at:</p>
+                <div class="article-content button-link">
+                    <a href="https://plexplatform.github.io/">plexplatform.github.io</a>
+                </div>
+            </article>        
+    </div>               
+</div>

@@ -1,25 +1,25 @@
 # Footer navigation links
 
-col1:
-  - title: Company
+#col1:
+  #- title: Company
 
-  - title: About Us
-    url: /contact/
+  #- title: About Us
+  #  url: /contact/
 
   #- title: Our Mission
   #  url: /contact/
 
-  - title: Contact Sales
-    url: /contact/
+  #- title: Contact Sales
+  #  url: /contact/
 
-col2:
-  - title: Information
+#col2:
+  #- title: Information
 
-  - title: Privacy Policy
-    url: /contact/
+  #- title: Privacy Policy
+  #  url: /contact/
 
-  - title: Terms & Conditions
-    url: /contact/
+  #- title: Terms & Conditions
+  #  url: /contact/
 
   #- title: Join Us
   #  url: /contact/
