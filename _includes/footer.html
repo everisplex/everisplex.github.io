@@ -2,11 +2,11 @@
     <div class="uk-container">
         <div class="uk-grid-large uk-child-width-expand@m" data-uk-grid>
 
-            <div>
+            <!--<div>
                 <div class="uk-flex uk-flex-top@m uk-flex-center@l">
                     <a class="uk-logo" href="{{ "/" | relative_url }}">{% if site.logosmall %}<img src="{{ site.uploads | absolute_url }}{{ site.logosmall }}" alt="{{ site.title | escape }}">{% else %}{{ site.title | escape }}{% endif %}</a>
                 </div>
-            </div>
+            </div>-->
 
             {% if site.data.footer.col1 %}
             <div>
@@ -73,7 +73,7 @@
             <div class="uk-width-expand@m" style="padding-right: 130px">
                 <div class="uk-width-auto@m uk-margin-medium uk-text-small">
                     <p class="uk-display-inline-block uk-margin-medium-right uk-margin-remove-bottom">
-                        <a class="uk-logo">{% if site.footerlogo %}<img style="width: 18%"src="{{ site.uploads | absolute_url }}{{ site.footerlogo }}" alt="{{ site.title | escape }}">{% endif %}</a>
+                        <a class="uk-logo" href="{{ "/" | relative_url }}">{% if site.footerlogo %}<img style="width: 18%"src="{{ site.uploads | absolute_url }}{{ site.footerlogo }}" alt="{{ site.title | escape }}">{% endif %}</a>
                         {{ site.footer.copyright }}</p>
                 </div>
             </div>
